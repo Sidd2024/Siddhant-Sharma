@@ -1371,29 +1371,32 @@ body.loaded #preloader .loader{
 	.intro-text > .intro-btns > .btn-custom{
 		margin-bottom:10px;
 	}
+	.about-text > p{
+		font-size: 12px;
+	}
+	.certificates > .inner > h4 {
+		font-size: 12px;
+	}
 	.intro-text > h1{
-		font-size:62px;
+		font-size:55px;
 	}
 	.home-parent {
 		display: block;
 		justify-content: center
 	}
 	.portrait-image {
-		height: 40vh;
-		width: 60vw;
+		height: 60vh;
+		width: 65vw;
 		margin:auto;
 		margin-bottom: 70px;
 	}
 	.section-main:before{
-		height: 130%;
-	}
-	#typewriter {
-		font-size: 12px;
+		height: 160%;
 	}
 
 	@keyframes animated-text{
 		from{width: 0;}
-		to{width: 400px;}
+		to{width: 500px;}
 		}
 }
 @media(max-width:550px){
@@ -1408,8 +1411,32 @@ body.loaded #preloader .loader{
 		height: 150%;
 	}
 	.btn-custom{
-		padding: 12px;
+		padding: 7px;
+		font-size: 10px;
+		margin-bottom: 10px;
+	}
+	.intro-text {
+		padding: 20px;
+	}
+	.project-description {
+		font-size: 8px;
+	}
+	.project-title{
+		font-size: 18px;
+	}
+	.technology-icons > i,svg{
+		font-size: 15px;
+	}
+	svg {
+		height: 15px;
+		width: 15px;
+	}
+	.project-details > a{
+		font-size: 15px;
+	}
+	#typewriter {
 		font-size: 12px;
+		max-width: 360px;
 	}
 }
 @media(max-width:400px){
@@ -1422,5 +1449,15 @@ body.loaded #preloader .loader{
 	}
 	.portrait-image{
 		display: none;
+	}
+	.intro-text > h1 {
+		font-size: 40px;
+	}
+	.section-main:before{
+		height: 100%;
+	}
+	#typewriter {
+		font-size: 10px;
+		max-width: 320px;
 	}
 }
