@@ -884,7 +884,8 @@ body.section-switching.up .animation-block{
   }
   .technology-icons i {
 	font-size: 24px;
-	margin-right: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
 	color: #000;
 	float: right;
   }
@@ -1167,7 +1168,7 @@ body.section-switching.up .animation-block{
 	padding:19px 35px;
 }
 .contact-info{
-	margin-bottom:25px;
+	margin-bottom:20px;
 }
 .contact-info:before,
 .contact-info:after{
@@ -1191,7 +1192,7 @@ body.section-switching.up .animation-block{
 	font-style:italic;
 	color:rgba(0,0,0,.4);
 	margin:0;
-	margin-top:5px;
+	margin-top:15px;
 }
 @media(min-width:992px){
 	.contact-info-icons{
